@@ -1,0 +1,32 @@
+import pygame
+pygame.init()
+
+screen = pygame.display.set_mode((720, 480))
+clock = pygame.time.Clock()  # 建立時間元件
+FPS = 60  # Frames per second.
+
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+# RED = (255, 0, 0), GREEN = (0, 255, 0), BLUE = (0, 0, 255).
+
+rect = pygame.Rect((0, 0), (32, 32))
+image = pygame.Surface((32, 32))
+image.fill(WHITE)
+x = 2
+y = 2
+
+while True:
+    clock.tick(FPS)
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            quit()
+
+    rect.move_ip(x, 0)  # 坐標差異讓它移動
+
+    if (rect.left < 0 or rect.right >= screen.get_width()):  # 到達左右邊界
+        x *= -1  # 正負值交換
+
+    screen.fill(BLACK)
+    screen.blit(image, rect)
+    pygame.display.update()  # Or pygame.display.flip()
