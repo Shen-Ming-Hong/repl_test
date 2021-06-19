@@ -23,7 +23,7 @@ else:
     total = days_rented * cost_per_day
 print("車辆的租借費用為: $",total)
 '''
-()(1)A.!="n": B. =="n": C. =="y":
-()(2)A.=="Sunday ": B.>="Sunday ": C. is " Sunday ":
-()(3)A.=="Thursday": B.<="Thursday": C. is "Thursday":
+(B)(1)A.!="n": B. =="n": C. =="y":
+(A)(2)A.=="Sunday ": B.>="Sunday ": C. is " Sunday ":
+(A)(3)A.=="Thursday": B.<="Thursday": C. is "Thursday":
 '''

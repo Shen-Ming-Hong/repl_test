@@ -18,4 +18,7 @@ if name.upper() == name:
 F.
 else:
     print(name, "是小寫.")
+
+
+ans = AEBD
 '''

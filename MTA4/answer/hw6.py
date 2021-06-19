@@ -17,7 +17,7 @@ elif num == 0:
 else:
     print("輸入值並不是正整數")
 ###############################################
-( )(1) A.if num < 10: B.if num < 100: C.elif num < 100: D.else:
-( )(2) A.if num < 10: B.if num < 100: C.elif num < 100: D.else:
-( )(3) A.if num < 10: B.if num < 100: C.elif num < 100: D.else:
+(A)(1) A.if num < 10: B.if num < 100: C.elif num < 100: D.else:
+(C)(2) A.if num < 10: B.if num < 100: C.elif num < 100: D.else:
+(D)(3) A.if num < 10: B.if num < 100: C.elif num < 100: D.else:
 '''

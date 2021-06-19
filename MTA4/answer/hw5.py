@@ -24,22 +24,22 @@ else:
     letter_grade = '不格'
 print("你的成绩為 :", letter_grade)
 '''
-( )(1) 
+(B)(1) 
 A. if grade <= 90:
 B. if grade >= 90:
 C. elif grade > 90:
 D. elif grade >= 90:
-( )(2) 
+(D)(2) 
 A. if grade > 80:
 B. if grade >= 80:
 C. elif grade > 80:
 D. elif grade >= 80:
-( )(3) 
+(D)(3) 
 A. if grade > 70:
 B. if grade >= 70:
 C. elif grade > 70:
 D. elif grade >= 70:
-( )(4)
+(D)(4)
 A. if grade > 60:
 B. if grade >= 60:
 C. elif grade > 60:

@@ -15,18 +15,17 @@ while (done != -1):
 average = float(sum / count)
 (2) + (3)
 '''
-()(1)   A. print("請輸入評等 (1-5), 完成請輸入-1")
+(B)(1)   A. print("請輸入評等 (1-5), 完成請輸入-1")
         B. float(input("請输入評等 (1-5), 完成請输入-1"))
         C. input("請输入評等 (1-5), 完成請輸入-1")
         D. input"請輸入評等 (1-5), 完成請输入-1")
-()(2)   A. output("飯店的平均星级評等是: "
+(D)(2)   A. output("飯店的平均星级評等是: "
         B. console.input("飯店的平均星级評等是: "
         C. printline("飯店的平均星级評等是: "
         D. print("飯店的平均星级評等是: "
-()(3)   A. format(average, '.2f'))
+(A)(3)   A. format(average, '.2f'))
         B. format(average, '.2d'))
         C. {average, '.2f'}
         D. format.average.{2d}
 
-ans = B D A
 '''
